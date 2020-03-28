@@ -151,13 +151,17 @@ img {
 .contenedor-acerca-de {
     display: flex;
     justify-content: space-evenly;
+    animation: moverIzquierda 1s ease-in;
+}
+
+.titulo{
+    animation: moverDerecha;
 }
 
 .contenido-textos h3 span {
     background: #4d0686;
     color: blanchedalmond;
     border-radius: 50%;
-    display: inline-block;
     text-align: center;
     width: 30px;
     height: 30px;
@@ -181,8 +185,8 @@ img {
 }
 
 .imagen-port {
-    width: 24%;
-    margin-bottom: 10px;
+    width: 20%;
+    margin-bottom: 20px;
     overflow: hidden;
     cursor: pointer;
     box-shadow: blanchedalmond;
