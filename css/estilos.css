@@ -186,7 +186,7 @@ img {
 
 .imagen-port {
     width: 25%;
-    margin-bottom: 20px;
+    margin: 15px;
     overflow: hidden;
     cursor: pointer;
     box-shadow: blanchedalmond;
